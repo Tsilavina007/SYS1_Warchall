@@ -1,5 +1,7 @@
 Bienvenue dans ce référentiel contenant les étapes à suivre pour trouver les solutions à chaque niveau de Warchall 
 
+Pour accéder aux indications de chaque niveau, rendez-vous sur les liens suivants :
+
 - [Training: Warchall - The Beginning](https://www.wechall.net/challenge/warchall/begins/index.php)
 - [SSH... Z is sleeping](https://www.wechall.net/challenge/warchall/ssssh/index.php)
 - [Choose your Path I](https://www.wechall.net/challenge/warchall/choose_your_path/index.php)
@@ -12,7 +14,6 @@ Bienvenue dans ce référentiel contenant les étapes à suivre pour trouver les
 - [Training: Warchall - 7 Tropical Fruits](https://www.wechall.net/challenge/warchall/tropical/7/index.php)
 - [Warchall: Nurxxed](https://www.wechall.net/challenge/warchall/nurxxed/index.php)
 
-Pour accéder aux indications de chaque niveau, rendez-vous sur le lien suivant : [Warchall](https://www.wechall.net/challs/Warchall)
 
 
 
