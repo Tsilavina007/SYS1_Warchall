@@ -1,7 +1,7 @@
 
 # Chapitre I : Training: Warchall - The Beginning
 
-## Objectif de ce premier chapitre : Trouver les 6 drapeaux sur le serveur warchall.net.
+## Objectif de ce premier chapitre : Trouver les 6 drapeaux sur le serveur warchall.net .
 
 
 
