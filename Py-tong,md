@@ -1,0 +1,49 @@
+# Py-Tong
+
+
+Le code Python qui prend un chemin de fichier en argument en ligne de commande, ouvre le fichier, lit son contenu, et effectue quelques vérifications. En fonction du résultat de ces vérifications, il imprime certains messages et, dans le cas où la solution est correcte, il lit et imprime le contenu d'un fichier défini par la variable `SOLUTION` (`/home/level/12/solution.txt`).
+
+## Objectif
+Le but de ce challenge est de détecter la vulnérabilité présente dans le code Python fourni, permettant ainsi d'imprimer le contenu du fichier spécifié par SOLUTION (/home/level/12/solution.txt).
+
+
+
+## Expliquons le fonctionnement du script :
+
+1. **Vérifications préliminaires**:
+    - Il vérifie si le chemin du fichier contient certains motifs ("proc", "uptime", "tmp", "random", "full", "zero", "null"). Si oui, il lance une exception (`ValueError`) avec le message "nononono: hacking is not allowed".
+    - Il vérifie si le fichier spécifié existe. Si non, il lance une exception avec le message "sorry file "%s" does not exists" % filepath.
+
+2. **Lecture du fichier initial**:
+    - Il ouvre le fichier spécifié et lit son contenu, stocké dans la variable `jjk`.
+
+3. **Vérification du fichier après la lecture initiale**:
+    - Il vérifie si le fichier existe toujours après la première lecture. Si non, cela signifie que le fichier a été supprimé, et il imprime "You are l33t" et retourne `True`.
+
+4. **Re-lecture du fichier**:
+    - S'il constate que le fichier existe toujours, il le rouvre et lit son contenu, stocké dans la variable `kwisatz`.
+
+5. **Comparaison des contenus**:
+    - Il compare les contenus initiaux (`jjk`) et actuels (`kwisatz`). Si les contenus diffèrent, cela signifie que le fichier a été modifié, et il imprime "You are a winner" et retourne `True`.
+
+6. **Cas par défaut**:
+    - Si aucune des conditions ci-dessus n'est satisfaite, il lance une exception avec le message "fail...".
+
+7. **Exécution principale**:
+    - Dans la partie `__main__`, il vérifie si le nombre d'arguments en ligne de commande est suffisant. Si non, il imprime "wrong argcount" et quitte le script avec le code de sortie 1.
+    - Il appelle la fonction `main` avec le chemin du fichier spécifié et capture toute exception qui pourrait être levée.
+    - S'il n'y a pas d'exception, il imprime le contenu du fichier défini par `SOLUTION` (`/home/level/12/solution.txt`).
+
+
+## Solution
+
+Dans ce script, un fichier temporaire est utilisé en tant qu'argument. Lorsque ce fichier temporaire est supprimé, le script imprime le contenu du fichier défini par SOLUTION (/home/level/12_pytong/solution.txt).
+
+Pour utiliser ce script, placez-vous dans le répertoire /home/level/12_pytong/ et exécutez la commande suivante dans le terminal bash :
+
+
+``` bash
+./pytong <(echo aaa)
+```
+
+Cette commande utilise la substitution de processus <(...) pour créer un fichier temporaire contenant le texte "aaa", puis l'utilise comme argument pour le script pytong. Après l'exécution, le script imprime le contenu du fichier défini par SOLUTION.
