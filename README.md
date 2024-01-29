@@ -1,15 +1,15 @@
 Bienvenue dans ce référentiel contenant les étapes à suivre pour trouver les solutions à chaque niveau de Warchall 
 
-- Chapitre I : Training: Warchall - The Beginning
-- Chapitre I : SSH... Z is sleeping
-- Chapitre I : Choose your Path I
-- Chapitre I : Choose your Path II
-- Chapitre I : Py-Tong
-- Chapitre I : Warchall: Live LFI
-- Chapitre I : Warchall: Live RFI
-- Chapitre I : Warchall: Live RCE
-- Chapitre I : Warchall: Tryouts
-- Chapitre I : Training: Warchall - 7 Tropical Fruits
-- Chapitre I : Warchall: Nurxxed
+- [Training: Warchall - The Beginning](https://www.wechall.net/challenge/warchall/begins/index.php)
+- [SSH... Z is sleeping](https://www.wechall.net/challenge/warchall/ssssh/index.php)
+- [Choose your Path I](https://www.wechall.net/challenge/warchall/choose_your_path/index.php)
+- [Choose your Path II](https://www.wechall.net/challenge/warchall/choose_your_path2/index.php)
+- [Py-Tong](https://www.wechall.net/challenge/space/pytong/index.php)
+- [Warchall: Live LFI](https://www.wechall.net/challenge/warchall/live_lfi/index.php)
+- [Warchall: Live RFI](https://www.wechall.net/challenge/warchall/live_rfi/index.php)
+- [Warchall: Live RCE](https://www.wechall.net/challenge/warchall/live_rce/index.php)
+- [Warchall: Tryouts](https://www.wechall.net/challenge/warchall/tryouts/index.php)
+- [Training: Warchall - 7 Tropical Fruits](https://www.wechall.net/challenge/warchall/tropical/7/index.php)
+- [Warchall: Nurxxed](https://www.wechall.net/challenge/warchall/nurxxed/index.php)
 
 Pour accéder aux indications de chaque niveau, rendez-vous sur le lien suivant : [Warchall](https://www.wechall.net/challs/Warchall)
