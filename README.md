@@ -13,3 +13,7 @@ Bienvenue dans ce référentiel contenant les étapes à suivre pour trouver les
 - [Warchall: Nurxxed](https://www.wechall.net/challenge/warchall/nurxxed/index.php)
 
 Pour accéder aux indications de chaque niveau, rendez-vous sur le lien suivant : [Warchall](https://www.wechall.net/challs/Warchall)
+
+
+
+> Les solutions sont disponibles dans un fichier Markdown pour chaque chapitre dans ce référentiel.
