@@ -19,4 +19,4 @@ Pour tester le script, placez-vous dans le répertoire `/home/level/10_choose_yo
 ```bash
 ./charp "tsong & cat solution.txt > ~/solution_l10"
 ```
->Les contenus de solution.txt y compris le flag seront dans le fichier solution_l10.
+>Les contenus de solution.txt y compris le flag seront dans le fichier solution_l10 de votre repertoire personnel.
