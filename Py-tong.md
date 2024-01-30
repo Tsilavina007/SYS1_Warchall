@@ -4,7 +4,7 @@ Ce script Python prend un chemin de fichier en argument en ligne de commande, li
 
 ## Objectif du Challenge
 
-L'objectif de ce challenge est de détecter la vulnérabilité dans le code Python fourni, permettant d'imprimer le contenu du fichier spécifié par `SOLUTION` (`/home/level/12/solution.txt`).
+L'objectif de ce challenge est de détecter la vulnérabilité dans le code Python fourni, permettant d'imprimer le contenu du fichier spécifié par `SOLUTION` (`/home/level/12_Pytong/solution.txt`).
 
 ## Fonctionnement du Script
 
@@ -39,7 +39,7 @@ Le script utilise un fichier temporaire en tant qu'argument. Lorsque ce fichier 
 Pour tester le script, placez-vous dans le répertoire `/home/level/12_pytong/` et exécutez la commande suivante dans le terminal bash :
 
 ```bash
-./pytong <(echo aaa)
+./pytong <(echo test)
 ```
 
-Cette commande utilise la substitution de processus `<(...)` pour créer un fichier temporaire contenant le texte "aaa". Ensuite, elle utilise ce fichier temporaire comme argument pour le script `pytong`. Après l'exécution, le script imprime le contenu du fichier défini par `SOLUTION`.
+Cette commande utilise la substitution de processus `<(...)` pour créer un fichier temporaire contenant le texte "test". Ensuite, elle utilise ce fichier temporaire comme argument pour le script `pytong`. Après l'exécution, le script imprime le contenu du fichier défini par `SOLUTION`.
