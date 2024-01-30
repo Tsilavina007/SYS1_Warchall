@@ -5,7 +5,7 @@
 
 Imprime le contenu de `/home/level/20_live_rce/config.php` 
 
-## Solution du Challenge
+## Solution du Challenge et Vulnérabilité
 
 La première chose utile que j'ai faite a été de tomber sur une vulnérabilité PHP-CGI sur Google. J'ai rapidement découvert qu'une bonne façon de tester cette vulnérabilité était d'utiliser :
 

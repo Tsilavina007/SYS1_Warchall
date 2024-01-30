@@ -6,7 +6,7 @@ Ce script Python prend un chemin de fichier en argument en ligne de commande, li
 
 L'objectif de ce challenge est de détecter la vulnérabilité dans le code Python fourni, permettant d'imprimer le contenu du fichier spécifié par `SOLUTION` (`/home/level/12_Pytong/solution.txt`).
 
-## Fonctionnement du Script
+## Fonctionnement du Script et Vulnérabilité
 
 1. **Vérifications préliminaires**:
     - Le script vérifie si le chemin du fichier contient certains motifs ("proc", "uptime", "tmp", "random", "full", "zero", "null"). En cas de correspondance, une exception (`ValueError`) est levée avec le message "nononono: hacking is not allowed".
