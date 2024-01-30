@@ -1,6 +1,6 @@
 
 
-# Live-LFI & RFI
+# **Live-LFI & RFI**
 
 ## Objectif
 Le challenge consiste à exploiter une vulnérabilité de Local File Inclusion (LFI) et Remote File Inclusion sur le site https://lfi.warchall.net/ et https://rfi.warchall.net/. L'objectif est de lire le contenu du fichier `solution.php` sur https://lfi.warchall.net/index.php?lang=solution.php et https://rfi.warchall.net/index.php?lang=solution.php pour récupérer le flag.

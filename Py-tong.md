@@ -1,4 +1,4 @@
-# Py-Tong 
+# **Py-Tong**
 
 Ce script Python prend un chemin de fichier en argument en ligne de commande, lit son contenu, effectue des vérifications, et imprime des messages en fonction du résultat. Si la solution est correcte, le script affiche le contenu d'un fichier spécifié par la variable `SOLUTION` (`/home/level/12/solution.txt`).
 
